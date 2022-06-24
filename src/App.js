@@ -42,6 +42,7 @@ function App() {
     ((weather.main.temp>25)?'app warm': 'app')  :'app'
   }>
       <main>
+          <span>WEATHER APP</span> 
         <div className="search-box">
           <input type="text" className="search-bar" placeholder="Search for the city..." onChange={e=>setQuery(e.target.value)}
           value={query} onKeyPress={search}/>

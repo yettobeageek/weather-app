@@ -132,3 +132,7 @@ main{
   text-shadow: 3px 3px 6px #000;
   text-align: center;
 }
+span{
+  font-size: 100px;
+  color: white;
+}
