@@ -66,6 +66,12 @@ function App() {
        </div>
         ):('')}
        
+
+       <div className="flex-container">
+         <div>A</div>
+         <div>B</div>
+         <div>C</div>
+       </div>
       </main>
       
 
